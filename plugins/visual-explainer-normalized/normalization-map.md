@@ -1,0 +1,24 @@
+# Visual Explainer Normalization Map
+
+This folder contains markdown-only normalized skills with one-to-one mapping from the source plugin files.
+
+| Source file | Normalized file | Skill ID | Get example |
+|---|---|---|---|
+| `plugins/visual-explainer/SKILL.md` | `plugins/visual-explainer-normalized/SKILL.md` | `visual-explainer:visual-explainer.skill` | `supercli skills get visual-explainer:visual-explainer.skill` |
+| `plugins/visual-explainer/commands/diff-review.md` | `plugins/visual-explainer-normalized/commands/diff-review.md` | `visual-explainer:visual-explainer.commands.diff-review` | `supercli skills get visual-explainer:visual-explainer.commands.diff-review` |
+| `plugins/visual-explainer/commands/fact-check.md` | `plugins/visual-explainer-normalized/commands/fact-check.md` | `visual-explainer:visual-explainer.commands.fact-check` | `supercli skills get visual-explainer:visual-explainer.commands.fact-check` |
+| `plugins/visual-explainer/commands/generate-slides.md` | `plugins/visual-explainer-normalized/commands/generate-slides.md` | `visual-explainer:visual-explainer.commands.generate-slides` | `supercli skills get visual-explainer:visual-explainer.commands.generate-slides` |
+| `plugins/visual-explainer/commands/generate-visual-plan.md` | `plugins/visual-explainer-normalized/commands/generate-visual-plan.md` | `visual-explainer:visual-explainer.commands.generate-visual-plan` | `supercli skills get visual-explainer:visual-explainer.commands.generate-visual-plan` |
+| `plugins/visual-explainer/commands/generate-web-diagram.md` | `plugins/visual-explainer-normalized/commands/generate-web-diagram.md` | `visual-explainer:visual-explainer.commands.generate-web-diagram` | `supercli skills get visual-explainer:visual-explainer.commands.generate-web-diagram` |
+| `plugins/visual-explainer/commands/plan-review.md` | `plugins/visual-explainer-normalized/commands/plan-review.md` | `visual-explainer:visual-explainer.commands.plan-review` | `supercli skills get visual-explainer:visual-explainer.commands.plan-review` |
+| `plugins/visual-explainer/commands/project-recap.md` | `plugins/visual-explainer-normalized/commands/project-recap.md` | `visual-explainer:visual-explainer.commands.project-recap` | `supercli skills get visual-explainer:visual-explainer.commands.project-recap` |
+| `plugins/visual-explainer/commands/share.md` | `plugins/visual-explainer-normalized/commands/share.md` | `visual-explainer:visual-explainer.commands.share` | `supercli skills get visual-explainer:visual-explainer.commands.share` |
+| `plugins/visual-explainer/references/css-patterns.md` | `plugins/visual-explainer-normalized/references/css-patterns.md` | `visual-explainer:visual-explainer.references.css-patterns` | `supercli skills get visual-explainer:visual-explainer.references.css-patterns` |
+| `plugins/visual-explainer/references/libraries.md` | `plugins/visual-explainer-normalized/references/libraries.md` | `visual-explainer:visual-explainer.references.libraries` | `supercli skills get visual-explainer:visual-explainer.references.libraries` |
+| `plugins/visual-explainer/references/responsive-nav.md` | `plugins/visual-explainer-normalized/references/responsive-nav.md` | `visual-explainer:visual-explainer.references.responsive-nav` | `supercli skills get visual-explainer:visual-explainer.references.responsive-nav` |
+| `plugins/visual-explainer/references/slide-patterns.md` | `plugins/visual-explainer-normalized/references/slide-patterns.md` | `visual-explainer:visual-explainer.references.slide-patterns` | `supercli skills get visual-explainer:visual-explainer.references.slide-patterns` |
+| `plugins/visual-explainer/templates/architecture.html` | `plugins/visual-explainer-normalized/templates/architecture.md` | `visual-explainer:visual-explainer.templates.architecture` | `supercli skills get visual-explainer:visual-explainer.templates.architecture` |
+| `plugins/visual-explainer/templates/data-table.html` | `plugins/visual-explainer-normalized/templates/data-table.md` | `visual-explainer:visual-explainer.templates.data-table` | `supercli skills get visual-explainer:visual-explainer.templates.data-table` |
+| `plugins/visual-explainer/templates/mermaid-flowchart.html` | `plugins/visual-explainer-normalized/templates/mermaid-flowchart.md` | `visual-explainer:visual-explainer.templates.mermaid-flowchart` | `supercli skills get visual-explainer:visual-explainer.templates.mermaid-flowchart` |
+| `plugins/visual-explainer/templates/slide-deck.html` | `plugins/visual-explainer-normalized/templates/slide-deck.md` | `visual-explainer:visual-explainer.templates.slide-deck` | `supercli skills get visual-explainer:visual-explainer.templates.slide-deck` |
+| `plugins/visual-explainer/scripts/share.sh` | `plugins/visual-explainer-normalized/scripts/share.md` | `visual-explainer:visual-explainer.scripts.share` | `supercli skills get visual-explainer:visual-explainer.scripts.share` |
